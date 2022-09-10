@@ -22,7 +22,7 @@
       <div class="flex">
         <div class="border-c_blue-70 border-2 rounded-md m-2 lg:h-52 max-h-28 lg:max-h-56 md:max-h-40 w-3/12 sm:w-4/12 relative">
           <div class="shadow-md h-full w-full absolute top-1 right-1 rounded-md bg-c_blue-50 p-1">
-            <img :src="'http://baran98.ir/admin/'+service.image" :alt="service.title" class="h-full w-full " @click="getService(service.title , service.text)">
+            <img :src="'http://baran98.ir/panel/public/'+service.image" :alt="service.title" class="h-full w-full " @click="getService(service.title , service.text)">
           </div>
         </div>
         <div class="pt-5 w-7/12 sm:w-6/12 mr-4">
